@@ -1,10 +1,12 @@
 import Header from "../Header/Header";
+import DreamJob from "../LandingPage/DreamJob";
 
 const HomePage =()=>{
     return(
-        <Header>
-            
-        </Header>
+        <div className="min-h-[100vh] bg-mineshaft-950 font-['poppins']">
+        <Header/>
+        <DreamJob/>
+        </div>
     )
 }
 
